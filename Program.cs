@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using EspacioCalculadora;
+
+Calculadora miCalculadora = new Calculadora();
+
+// miCalculadora.Limpiar();
+miCalculadora.Sumar(20);
+miCalculadora.Multiplicar(2);
+double Resultado = miCalculadora.Resultado;
+
+Console.WriteLine(Resultado);
