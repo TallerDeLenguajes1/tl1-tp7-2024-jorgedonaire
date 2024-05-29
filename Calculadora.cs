@@ -9,7 +9,7 @@ public class Calculadora
         dato = valorInicial;
     }
 
-    public Calculadora() //sin parametro
+    public Calculadora() //constructor sin parametro
     {
         dato = 0;
     }

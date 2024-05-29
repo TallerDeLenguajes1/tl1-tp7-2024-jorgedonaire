@@ -90,3 +90,12 @@
 // Console.WriteLine("El resultado es:");
 // double Resultado = miCalculadora.Resultado;
 // Console.WriteLine(Resultado);
+
+//EJERCICIO 2
+using SistemaDeAdministracion;
+
+Empleado nuevoEmpleado = new Empleado();
+Console.WriteLine("Ingrese los datos del empleado");
+Console.WriteLine("Nombre: ");
+string nombreIngresado = Console.ReadLine();
+
